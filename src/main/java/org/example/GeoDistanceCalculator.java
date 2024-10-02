@@ -14,7 +14,7 @@ public class GeoDistanceCalculator {
         // Входные JSON с координатами
         String jsonInput = "{ \"startPos\": [45.062609, 41.923656], \"endPos\": [57.165054, 65.498056] }";
 
-        // Парсинг JSON
+        // Парсинг JSONа
         JSONObject jsonObject = new JSONObject(jsonInput);
 
         // Извлечение координат
